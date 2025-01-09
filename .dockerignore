@@ -1,0 +1,23 @@
+.dockerignore
+
+# ignorar archivos de configuración sensibles, variables de entorno
+.env    
+
+# ignorar directorios innecesarios
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# ignorar archivos de control de versiones
+.git/
+.gitignore
+
+# ignorar archivos de dependencias locales
+node_modules/
+venv/
+
+# ignorar configuraciones de visual studio code
+.vscode/
